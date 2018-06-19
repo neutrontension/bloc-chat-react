@@ -19,6 +19,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Chat Rooms</h1>
+        {/* accessing ‘.firebase’ inside of the component
+          by passing firebase as a prop in order to use
+          it inside of RoomList */}
         <RoomList
           firebase={firebase}
           />

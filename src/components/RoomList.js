@@ -23,7 +23,7 @@ class RoomList extends Component {
       <div>
         <ul className="list_of_rooms">
           {this.state.rooms.map( (room, index) => (
-            <li key={index}> {room.name} </li>
+            <li key={index}> { room.name } </li>
           ) )}
         </ul>
       </div>
